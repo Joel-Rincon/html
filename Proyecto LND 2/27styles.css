@@ -1,0 +1,139 @@
+/* Estilos generales */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column; /* Apilar elementos en columna */
+    min-height: 100vh;  /* Asegurar que el body ocupe al menos la altura de la pantalla */
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header nav {
+    margin-top: 10px;
+    text-align: center;
+}
+
+header nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para el contenido principal */
+main {
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-sizing: border-box;
+}
+
+/* Estilos para section */
+section {
+    background-color: #eef;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+/* Estilos para el aside */
+aside {
+    padding: 20px;
+    background-color: #f0f0f0;
+    margin-top: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+aside ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+aside ul li {
+    margin: 10px 0;
+}
+
+aside ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+aside ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para el artículo */
+article {
+    background-color: #fdfdfd;
+    margin-top: 10px;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+/* Estilos para la fecha en el artículo */
+.fecha {
+    font-size: 0.9em;
+    color: #777;
+}
+
+/* Estilos para figure y figcaption */
+figure {
+    text-align: center;
+    margin: 20px 0;
+}
+
+figure img {
+    max-width: 100%;
+    height: auto;
+}
+
+figcaption {
+    font-size: 0.9em;
+    color: #555;
+    margin-top: 5px;
+}
+
+/* Estilos para details */
+details {
+    background-color: #f7f7f7;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+}
+
+summary {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Estilos para el pie de página */
+footer {
+    font-size: small;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/*Estilo del párrafo demo para mostrar la hora más pequeña*/
+#demo {
+    font-size: 25%;
+}
